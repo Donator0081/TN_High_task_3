@@ -5,6 +5,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @EnableConfigurationProperties
 @ConfigurationProperties("application.yaml")
-public class AppConfigWithSpringBootDev {
+public class AppConfigWithSpringBootProp {
     private String name;
 }
