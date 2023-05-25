@@ -5,9 +5,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@PropertySource("classpath:application.properties")
-public class AppConfigWithoutSpringBoot {
+@PropertySource("classpath:application.yaml")
+public class AppConfigWithSpringBootProd {
 
-    @Value("${random_url}")
-    private String url;
+    @Value("${spring.name}")
+    private String name;
 }
